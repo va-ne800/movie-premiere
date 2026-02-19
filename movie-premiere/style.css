@@ -1,0 +1,94 @@
+/* ========== GLOBAL STYLES ========== */
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+
+
+/* ========== HEADER SECTION ========== */
+
+/* ID selector */
+#main-header {
+    background-color: #222;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Class selector */
+.tagline {
+    font-style: italic;
+    color: #f5c542;
+}
+
+
+/* ========== GENERAL SECTION SPACING ========== */
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* ========== ABOUT SECTION ========== */
+
+.about img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+/* ========== CAST SECTION ========== */
+
+.cast ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.cast li {
+    margin-bottom: 10px;
+}
+
+/* Hover effect requirement */
+.cast li:hover {
+    color: #f5c542;
+    cursor: pointer;
+}
+
+
+/* ========== SHOWTIMES TABLE ========== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1c1c1c;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+
+/* ========== FOOTER ========== */
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
